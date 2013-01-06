@@ -1,0 +1,87 @@
+body {
+    padding: 5px;
+    background-color: white;
+}
+a:link {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+input {
+    border: solid 1px black;
+}
+button {
+    background: white;
+    font-weight: bold;
+    border: solid 2px black;
+}
+
+.title {
+    text-indent: 75px;
+    font-weight: bold;
+    font-size: 200%;
+}
+.subtitle {
+    text-indent: 50px;
+    font-weight: bold;
+    font-size: 150%;
+}
+.menu {
+    text-indent: 10px;
+}
+.content {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+.about {
+    font-style: italic;
+    font-size: 80%;
+    text-align: center;
+}
+.controls {
+
+}
+.error {
+    font-style: italic;
+    color: red;
+}
+
+
+.subject {
+    font-weight: bold;
+    font-size: 125%;
+}
+.item {
+    float: left;
+    display: block;
+    text-align: center;
+    width: 150px;
+    padding: 1px;
+    margin: 1px;
+    border: solid 1px black;
+}
+.not_started{
+    background-color: silver;
+}
+.in_progress{
+    background-color: yellow;
+}
+.done{
+    background-color: green;
+}
+.reopen{
+    background-color: red;
+}
+.late {
+    border: solid 1px red;
+}
+.current {
+    border: solid 3px;
+}

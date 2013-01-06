@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <table name="Item">
+    <column>id</column>
+    <column>deadline</column>
+    <column>description</column>
+    <column>label</column>
+    <column>state</column>
+  </table>
+  <table name="PublicItem">
+    <column>id</column>
+    <column>deadline</column>
+    <column>description</column>
+    <column>label</column>
+  </table>
+  <table name="PublicSubject">
+    <column>id</column>
+    <column>description</column>
+    <column>label</column>
+    <column>rate</column>
+    <column>teacher</column>
+  </table>
+  <table name="PublicSubject_PublicItem">
+    <column>PublicSubject_id</column>
+    <column>items_id</column>
+  </table>
+  <table name="PublicSubject_User">
+    <column>publicSubjects_id</column>
+    <column>users_id</column>
+  </table>
+  <table name="Subject">
+    <column>id</column>
+    <column>description</column>
+    <column>label</column>
+    <column>priority</column>
+    <column>publicSubject</column>
+    <column>teacher</column>
+  </table>
+  <table name="Subject_Item">
+    <column>Subject_id</column>
+    <column>items_id</column>
+  </table>
+  <table name="User">
+    <column>id</column>
+    <column>email</column>
+    <column>lastActionDate</column>
+    <column>locale</column>
+    <column>name</column>
+    <column>pass</column>
+    <column>registrationDate</column>
+    <column>role</column>
+    <column>visibilityPolicy</column>
+    <row>
+      <value>1</value>
+      <value/>
+      <value><![CDATA[2012-03-31 11:09:08.0]]></value>
+      <value>ru_UA</value>
+      <value>user</value>
+      <value>ee11cbb19052e40b07aac0ca060c23ee</value>
+      <value><![CDATA[2012-03-31 11:09:08.0]]></value>
+      <value>ROLE_USER</value>
+      <value>0</value>
+    </row>
+    <row>
+      <value>2</value>
+      <value/>
+      <value><![CDATA[2012-03-31 11:09:21.0]]></value>
+      <value>ru_UA</value>
+      <value>admin</value>
+      <value>21232f297a57a5a743894a0e4a801fc3</value>
+      <value><![CDATA[2012-03-31 11:09:21.0]]></value>
+      <value>ROLE_ADMIN</value>
+      <value>0</value>
+    </row>
+  </table>
+  <table name="User_Subject">
+    <column>User_id</column>
+    <column>subjects_id</column>
+  </table>
+</dataset>
